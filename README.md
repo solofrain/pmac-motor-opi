@@ -10,3 +10,6 @@
 4. Copy the created *-pmac-motor-info-cntlr.opi and pmac-motor-status-1x.opi to the repository.
    These .opi files must be in the same directory.
 5. Open the created *-pmac-motor-info-cntlr.opi file from CS-Studio.
+## Known issues
+1. The current version cannot resolve the IOC name if it's defined by macros in st.cmd.
+2. Only one .opi file will be created which take controllers as collections. Device collection is to be implemented. 
